@@ -1,0 +1,97 @@
+
+body{          
+              font-family: calibri;
+              background-color: #b2beb5;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   }
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%; }
+
+.navbar {
+    margin-bottom: 0;
+    background-color: tomato;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px ;
+  line-height: 1.42857143 ;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff ;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e ;
+    background-color: #fff ;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+    color: black ;
+}
+
+
+
+
+.jumbotron { 
+    background-color: #006994; /* Orange */
+    color: tomato;
+    font-family: comic sans ms;
+    font-style: oblique;
+    padding: 100px 25px;
+    text-align: center
+}
+
+.container-fluid ,  {
+    padding: 60px 50px;
+}
+
+.container-fluid ul li {padding: 5px 5px;
+    font-size: 20px
+}
+
+.col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 100px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #f4511e;
+}
